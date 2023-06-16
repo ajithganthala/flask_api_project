@@ -11,8 +11,8 @@ from marshmallow import Schema, fields, ValidationError
 from sqlalchemy.exc import SQLAlchemyError
 
 api_object = Flask(__name__)
-sql_pass = 'Sunny6899'
-api_object.config['SQLALCHEMY_DATABASE_URI'] = f'mysql://sunny:{sql_pass}@localhost/toys_database'
+sql_pass = 'password'
+api_object.config['SQLALCHEMY_DATABASE_URI'] = f'mysql://username:{sql_pass}@localhost/dbname'
 api_object.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 sq_database = SQLAlchemy(api_object)
 
