@@ -8,11 +8,7 @@ A Soft Toy Online store, which contains the details of the toys like ID, Name, D
 
 1. Install MySQL on the System and run the below query in SQL,
    
-   CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
-   
-   GRANT ALL PRIVILEGES ON *.* TO 'username'@'localhost' WITH GRANT OPTION;
-   
-   FLUSH PRIVILEGES;
+   ![image](https://github.com/ajithganthala/flask_api_project/assets/58483240/04b27bf4-d187-44be-b030-4b98bbff8e45)
 
    The above query will create a user with Password and will grant all access to the created user
    
